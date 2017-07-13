@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:weightSum="50"
+    android:layout_height="match_parent"
+    android:background="#321aac"
+    android:orientation="vertical"
+    tools:context="com.mahmoud.mohammed.firstapp.MainActivity">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="0dp"
+    android:layout_weight="26"
+    android:textSize="70dp"
+    android:textColor="#ffffff"
+    android:paddingTop="80dp"
+    android:textStyle="bold"
+    android:layout_gravity="center"
+    android:text="facebook"
+    />
+<EditText
+    android:id="@+id/email"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="4"
+    android:background="#ffffff"
+    android:layout_margin="10dp"
+    android:hint="   enter email"
+    />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:background="#ffffff"
+        android:layout_margin="10dp"
+        android:hint="  password"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:background="#110c5b"
+        android:layout_weight="4"
+        android:text="Log in"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:text="Sign up For Facebook"
+        android:textColor="#ffffff"
+        android:textStyle="normal"
+        android:gravity="bottom"
+        android:layout_gravity="center"
+        android:paddingBottom="5dp"
+        />
+</LinearLayout>

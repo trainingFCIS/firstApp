@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#888"
+    tools:context="com.mahmoud.mohammed.firstapp.Main2Activity">
+    <EditText
+        android:id="@+id/num_first"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#999"
+        android:layout_margin="10dp"
+        android:hint="   enter First Number "
+        />
+    <EditText
+        android:id="@+id/num_second"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#999"
+        android:hint="   enter second Number "
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/num_first"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="170dp"
+        android:text="+"
+        android:textSize="30dp"
+        />
+    <Button
+        android:id="@+id/nega"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="170dp"
+        android:text="-"
+        android:textSize="30dp"
+        />
+    <Button
+        android:id="@+id/multi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="190dp"
+        android:text="*"
+        android:textSize="30dp"
+        android:layout_alignBaseline="@+id/nega"
+        android:layout_alignBottom="@+id/nega"
+        android:layout_toEndOf="@+id/nega" />
+    <Button
+        android:id="@+id/divi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="170dp"
+        android:text="/"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="5"
+        android:text="@string/app_name"
+        android:gravity="center"
+        android:background="#999"
+        android:textSize="20sp"
+        android:hint="                        Display result     "
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/num_second"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="190dp"
+        />
+</RelativeLayout>
